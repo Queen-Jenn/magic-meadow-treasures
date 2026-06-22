@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Meadow Treasures</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="sparkles"></div>
+
+<div class="container">
+
+    <div class="header">
+        <h1>🌼 Magic Meadow Treasures 🌼</h1>
+        <p class="tagline">Small treasures. Gentle adventures.</p>
+    </div>
+
+    <img src="assets/bunny.svg" class="bunny" alt="Bunny">
+
+    <div id="searchArea">
+        <p id="searchMessage">
+            Bunny is searching beneath the clover...
+        </p>
+    </div>
+
+    <div id="rewardCard" class="reward-card hidden">
+
+        <div id="rewardEmoji" class="reward-emoji">🌼</div>
+
+        <h2 id="rewardTitle"></h2>
+
+        <p id="rewardMessage"></p>
+
+        <p id="bunnyComment" class="bunny-comment"></p>
+
+    </div>
+
+    <button id="discoverBtn">
+        Discover Another Treasure
+    </button>
+
+    <p class="visit-counter">
+        Meadow Visits:
+        <span id="visitCount">0</span>
+    </p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
